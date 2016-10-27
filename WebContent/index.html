@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+ function share(){
+	 title="标题1";//标题
+	 jianjie="哈哈哈哈";//简介 20个字以内
+	 imgurl="http://192.168.123.1:8080/WXDemo/alm.png";//缩略图地址
+	 articleurl="http://192.168.123.1:8080/WXDemo/index.html";//文章地址
+	 type="2";//1:qq空间 2:微信好友 3:微信朋友圈
+	 shar.shar(title,jianjie,imgurl,articleurl,type);
+ }
+</script>
+</head>
+<body>
+<a href="back">返回</a>
+<input type="button" value="分享" onclick="share()"/>
+</body>
+</html>
